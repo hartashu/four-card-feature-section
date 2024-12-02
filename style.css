@@ -83,7 +83,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section__text {
-  
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -186,10 +185,21 @@ h1, h2, h3, h4, h5, h6 {
 
   .section {
     max-width: 1110px;
+    gap: 64px;
   }
 
   .section__text {
     max-width: 540px;
+  }
+
+  .section__title-group {
+
+  }
+
+  .section__title,
+  .section__subtitle {
+    font-size: 2.25rem;
+    letter-spacing: 0.25px;
   }
 
   .section__cards {
@@ -199,6 +209,22 @@ h1, h2, h3, h4, h5, h6 {
     /* grid-template-areas: 
     "card1 card2 card4"
     "card1 card3 card4"; */
+  }
+
+  .section__card {
+    max-width: 350px;
+    max-height: 250px;
+    padding: 2rem;
+    gap: 40px;
+  }
+
+  .section__card-title {
+    margin-bottom: 6px;
+  }
+
+  .section__card-img {
+    width: 64px;
+    height: 64px;
   }
 
   .u-grid-area-card1 {
