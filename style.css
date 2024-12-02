@@ -64,8 +64,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--ff-base);
   font-size: 15px;
 
-  display: grid;
-  place-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .content {
@@ -192,13 +194,9 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 540px;
   }
 
-  .section__title-group {
-
-  }
-
   .section__title,
   .section__subtitle {
-    font-size: 2.25rem;
+    font-size: 36px;
     letter-spacing: 0.25px;
   }
 
@@ -206,6 +204,7 @@ h1, h2, h3, h4, h5, h6 {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr 1fr;
     column-gap: 30px;
+    row-gap: 30px;
     /* grid-template-areas: 
     "card1 card2 card4"
     "card1 card3 card4"; */
