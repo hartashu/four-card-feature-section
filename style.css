@@ -155,19 +155,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-.u-border-top-cyan {
+.section__card--cyan {
   border-top: 3.55px solid var(--clr-cyan);
 }
 
-.u-border-top-red {
+.section__card--red {
   border-top: 3.55px solid var(--clr-red);
 }
 
-.u-border-top-orange {
+.section__card--orange {
   border-top: 3.55px solid var(--clr-orange);
 }
 
-.u-border-top-blue {
+.section__card--blue {
   border-top: 3.55px solid var(--clr-blue);
 }
 
@@ -226,23 +226,23 @@ h1, h2, h3, h4, h5, h6 {
     height: 64px;
   }
 
-  .u-grid-area-card1 {
+  .section__card--area1 {
     grid-column: 1 / 2;
     grid-row: 1 / -1;
     align-self: center;
   }
 
-  .u-grid-area-card2 {
+  .section__card--area2 {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
   }
 
-  .u-grid-area-card3 {
+  .section__card--area3 {
     grid-column: 2 / 3;
     grid-row: 2 / -1;
   }
 
-  .u-grid-area-card4 {
+  .section__card--area4 {
     grid-column: 3 / -1;
     grid-row: 1 / -1;
     align-self: center;
